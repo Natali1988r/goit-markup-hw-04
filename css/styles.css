@@ -456,8 +456,8 @@ background-color: #404bbF;
   gap: 16px;
   }
 .social-media-list{
-width: 40%;
-height: 40%;
+width: 40px;
+height: 40px;
 }
 .social-media-link{
  display: flex;
