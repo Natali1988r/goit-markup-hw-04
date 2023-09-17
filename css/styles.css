@@ -445,7 +445,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .portf-item:hover {
   box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 2px 1px rgba(46, 47, 66, 0.08);
+   0px 2px 1px rgba(46, 47, 66, 0.08);
  }
 .portf-card-info {
   padding: 32px 16px;
@@ -459,14 +459,11 @@ overflow: hidden;
 display: block;
 }
 
-.portf-div:hover .overlay {
-  transform: translateX(0%);
-  background-color: #3f51b5;
-}
 .text-overlay {
   inset: 0;
   position: absolute;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -476,6 +473,9 @@ height: 100%;
 width: 100%;
 transform: translateY(100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-overlay:hover {
+  transform: translateY(0);
 }
 
  .card-content {
