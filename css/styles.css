@@ -99,7 +99,7 @@ align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
   }
- .nav-link-1 {
+ .nav-link-a {
   color: #434455;
   text-decoration: none;
     font-size: 16px;
@@ -118,6 +118,7 @@ align-items: center;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    width: 100%;
   }
   
   .nav-link:hover, .nav-link:focus {
@@ -197,7 +198,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .container {
     max-width: 1158px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0% 15px;
   }
 
@@ -381,6 +382,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 0 auto;
  }
  .social-card-info {
  display: flex;
@@ -439,11 +441,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  .portf-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: calc((100% - 48px) / 3);
-  border: 1px solid #ecf4f4; 
+ 
  }
  .portf-item:hover {
-  box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-   0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+  0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
  }
 .portf-card-info {
@@ -521,11 +523,11 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social{
-  display: flex;
+  
   justify-content: start;
   flex-direction: column;
   gap: 16px; 
-  margin-left: 120px;
+ 
   
 }
 .social-text {
@@ -572,7 +574,7 @@ fill: #F4F4FD;
 .f-flex {
 display: flex;
 align-items: baseline;
-justify-content: start;
+
 }
 .position-info {
   margin-right: 120px;
